@@ -1,7 +1,8 @@
-package com.task4;
+package com.arithmeticprogression;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Программа выводящая арифметическую прогрессию для N чисел:");
 
         int step=Integer.parseInt(args[0]);
         int result1 = 0;
@@ -10,7 +11,5 @@ public class Main {
             result1 = result1+step;
             System.out.print(result1 + ", ");
         }
-        System.out.println("");
-
     }
 }
